@@ -66,14 +66,12 @@ paths:
                     description: Invalid request body
 
     /getAllPrescription:
-        post:
+        get:
             summary: getAllPrescription
             operationId: getAllPrescription
             responses:
                 "200":
                     description: Successful operation
-                "400":
-                    description: Invalid request body
 
     /addPrescription:
         post:
