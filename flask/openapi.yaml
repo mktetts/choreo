@@ -1,0 +1,86 @@
+openapi: 3.0.3
+info:
+    title: Choreo Pharmacy
+
+servers:
+    - url: http://localhost:3000
+
+paths:
+    /getAllDoctors:
+        summary: List all doctors
+        get:
+            summary: List all doctors
+            operationId: getAllDoctors
+            responses:
+                "200":
+                    description: Successful operation
+
+    /addDoctors:
+        post:
+            summary: Insert a new doctor
+            operationId: addDoctors
+            responses:
+                "200":
+                    description: Successful operation
+                "400":
+                    description: Invalid request body
+
+    /predictPrescription:
+        post:
+            summary: predictPrescription
+            operationId: predictPrescription
+            responses:
+                "200":
+                    description: Successful operation
+                "400":
+                    description: Invalid request body
+
+    /questionAnswering:
+        post:
+            summary: questionAnswering
+            operationId: questionAnswering
+            responses:
+                "200":
+                    description: Successful operation
+                "400":
+                    description: Invalid request body
+
+    /predictWound:
+        post:
+            summary: predictWound
+            operationId: predictWound
+            responses:
+                "200":
+                    description: Successful operation
+                "400":
+                    description: Invalid request body
+
+    /decodeQRCode:
+        post:
+            summary: decodeQRCode
+            operationId: decodeQRCode
+            responses:
+                "200":
+                    description: Successful operation
+                "400":
+                    description: Invalid request body
+
+    /getAllPrescription:
+        post:
+            summary: getAllPrescription
+            operationId: getAllPrescription
+            responses:
+                "200":
+                    description: Successful operation
+                "400":
+                    description: Invalid request body
+
+    /addPrescription:
+        post:
+            summary: addPrescription
+            operationId: addPrescription
+            responses:
+                "200":
+                    description: Successful operation
+                "400":
+                    description: Invalid request body

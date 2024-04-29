@@ -1,0 +1,14 @@
+version: 0.1
+
+endpoints:
+    - name: Pharmacy REST Endpoint
+
+      port: 3000
+
+      type: REST
+
+      networkVisibility: Public
+
+      context: /api
+
+      schemaFilePath: openapi.yaml
