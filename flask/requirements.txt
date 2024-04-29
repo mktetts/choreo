@@ -1,0 +1,17 @@
+flask
+python-dotenv
+flask-cors
+python-dotenv
+web3
+
+openvino>=2023.1.0
+tensorflow>=2.5; sys_platform != 'darwin' and python_version > '3.8'
+tensorflow>=2.5,<=2.12.0; sys_platform != 'darwin' and python_version <= '3.8'
+tf_keras
+ipywidgets
+nncf
+qrcode
+opencv-python-headless
+librosa
+qrcode
+zxing

@@ -1,0 +1,14 @@
+{
+  "name": "hardhat-project",
+  "scripts": {
+    "deploy": "npx hardhat run ./scripts/deploy.js --network ganache",
+    "test": "npx hardhat test"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "hardhat": "^2.22.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
